@@ -17,6 +17,11 @@
     <IncludeDebugInformation>false</IncludeDebugInformation>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Helper\StringHelper.php" />
     <Compile Include="index.php" />
+    <Compile Include="Person.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Helper\" />
   </ItemGroup>
 </Project>
